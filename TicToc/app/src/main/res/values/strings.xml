@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="RANDOM_MODE">GAMBLE MODE</string>
+    <string name="RETRO_MODE">RETRO MODE</string>
+    <string name="Reset">Play Again</string>
+    <string name="TAP">TAP</string>
+    <string name="PLAYER_1">PLAYER 1</string>
+    <string name="PLAYER_2">PLAYER 2</string>
+    <string name="SUBMIT">CONTINUE</string>
+    <string name="CROSS">X</string>
+    <string name="CIRCLE">O</string>
+</resources>

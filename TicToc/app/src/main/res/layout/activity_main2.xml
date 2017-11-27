@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF7A6"
+    tools:context="com.example.reetomhazarika.tictoc.Main2Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ToggleButton
+        android:id="@+id/toggleButton00"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton01"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton00"
+        app:layout_constraintTop_toTopOf="@+id/toggleButton00" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton02"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton01"
+        app:layout_constraintTop_toTopOf="@+id/toggleButton01" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton10"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton00" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton11"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton10"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton01" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton12"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton11"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton02" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton20"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton10" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton21"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton20"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton11" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton22"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/TAP"
+        android:textOff="@string/TAP"
+        android:textSize="30sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintStart_toEndOf="@+id/toggleButton21"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton12" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:background="@drawable/button_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Reset"
+        android:textSize="20sp"
+        android:textColor="#FBFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton21"
+        app:layout_constraintVertical_bias="0.3" />
+
+</android.support.constraint.ConstraintLayout>
